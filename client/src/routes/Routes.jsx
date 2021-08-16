@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import { Home } from '../screens/Home';
 import { NavBar } from '../components/NavBar';
 import { Footer } from '../components/Footer';
-import { Login } from '../screens/Login';
+import Login from '../screens/Login';
 
 export class Routes extends React.Component {
     render() {
