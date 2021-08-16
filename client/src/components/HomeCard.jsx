@@ -8,9 +8,7 @@ export class HomeCard extends React.Component {
             <div className="feature-item">
                 <img src={img} alt={alt} className="feature-icon" />
                 <h3 className="feature-item-title">{name}</h3>
-                <p>
-                    {desc}
-                </p>
+                <p>{desc}</p>
             </div>
         );
     }
